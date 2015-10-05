@@ -1,9 +1,9 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
 
 body {
   padding:50px;
-  font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight:300;
+  font:14px/1.5 'Lato', sans-serif;
+  font-weight:400;
 }
 
 .paragraph {
@@ -47,13 +47,14 @@ a {
 
 a.class1 {
   color:#9966FF;
-  font-weight:500;
+  font-weight:400;
   text-decoration:none;
+  font-family: 'Lato', sans-serif;
 }
 
 a.class2 {
   color:#FF0066;
-  font-weight:500;
+  font-weight:400;
   text-decoration:none;
 }
 
@@ -229,8 +230,6 @@ footer {
   position:fixed;
   bottom:50px;
 }
-
-
 
 @media print, screen and (max-width: 960px) {
 
