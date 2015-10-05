@@ -3,8 +3,11 @@
 body {
   padding:50px;
   font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#777;
   font-weight:300;
+}
+
+.paragraph {
+  float: left; margin: 4px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -13,8 +16,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p, ul, ol, table, pre, dl {
+  color:#222;
   margin:0 0 20px;
-}
+  list-style:none;
+  padding-left:0;
+}​
+
 
 h1, h2, h3 {
   line-height:1.1;
@@ -38,6 +45,18 @@ a {
   text-decoration:none;
 }
 
+a.class1 {
+  color:#9966FF;
+  font-weight:500;
+  text-decoration:none;
+}
+
+a.class2 {
+  color:#FF0066;
+  font-weight:500;
+  text-decoration:none;
+}
+
 a small {
   font-size:11px;
   color:#777;
@@ -47,7 +66,35 @@ a small {
 
 .wrapper {
   width:860px;
-  margin:0 auto;
+}
+
+input[type=submit] {
+    border: 1px solid #a9a9a9;
+    color: #222222;
+    background: #fff;
+    padding: 2px 2px;
+    border-radius: 0px;
+}
+
+input[type=submit]:hover {
+    color: #f2f2f2;
+    background: #39c;
+}
+
+::-webkit-input-placeholder {
+    color: #222222;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+    color: #222222;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+    color: #222222;
+}
+
+:-ms-input-placeholder {
+    color: #222222;
 }
 
 blockquote {
@@ -182,6 +229,8 @@ footer {
   position:fixed;
   bottom:50px;
 }
+
+
 
 @media print, screen and (max-width: 960px) {
 
